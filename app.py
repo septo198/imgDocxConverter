@@ -67,7 +67,7 @@ def convert_image_to_text_doc(image_path, output_format='docx', generate_pdf=Fal
         return docx_path
 
 # Example usage
-image_path = 'screenshot.png'  # Replace with your screenshot image path
+image_path = '/home/matteo/Downloads/screenshot.jpeg'  # Replace with your screenshot image path
 output_format = 'docx'  # Choose 'docx' or 'odt'
 generate_pdf = True  # Set to True to generate both docx/odt and pdf, False otherwise
 
